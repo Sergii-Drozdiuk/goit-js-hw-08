@@ -19,11 +19,11 @@ function createMarkup(arr) {
             alt="${description}"
           />
         </a>
-      </li>
-    `
+      </li> 
+      `
     )
     .join('');
-}
+};
 
 new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
 container.style.listStyle = "none";
