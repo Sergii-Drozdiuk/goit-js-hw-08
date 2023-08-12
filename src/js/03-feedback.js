@@ -32,6 +32,7 @@ function result(evt) {
    console.log("Form data:", savedData);
    localStorage.removeItem(STORAGE_KEY);
    elem.form.reset();
+   alert("Thank you for your feedback!");
 };
 
 
