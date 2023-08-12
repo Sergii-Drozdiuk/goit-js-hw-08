@@ -8,7 +8,7 @@ const elem = {
 }
 
 const savedData = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
-console.log(savedData)
+
 if (savedData !== {}) {
    elem.email.value = savedData.email || "";
    elem.message.value = savedData.message || "";
