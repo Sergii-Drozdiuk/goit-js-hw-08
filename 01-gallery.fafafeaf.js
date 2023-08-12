@@ -7,6 +7,6 @@
             alt="${o}"
           />
         </a>
-      </li>
-    `).join("")),new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250}),d.style.listStyle="none"}();
-//# sourceMappingURL=01-gallery.9e3d6f3f.js.map
+      </li> 
+      `).join("")),new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250}),d.style.listStyle="none"}();
+//# sourceMappingURL=01-gallery.fafafeaf.js.map

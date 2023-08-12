@@ -7,6 +7,6 @@ var t="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:"u
             alt="${o}"
           />
         </a>
-      </li>
-    `).join("")),new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250}),d.style.listStyle="none";
-//# sourceMappingURL=01-gallery.54c0f754.js.map
+      </li> 
+      `).join("")),new(e&&e.__esModule?e.default:e)(".gallery a",{captionsData:"alt",captionDelay:250}),d.style.listStyle="none";
+//# sourceMappingURL=01-gallery.bfb61f77.js.map
