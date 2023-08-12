@@ -5,8 +5,7 @@ const elem = {
    form: document.querySelector('.feedback-form'),
    email: document.querySelector('input[name="email"]'),
    message: document.querySelector('textarea[name="message"]'),
-}
-
+};
 const savedData = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
 
 if (savedData !== {}) {
@@ -14,12 +13,13 @@ if (savedData !== {}) {
    elem.message.value = savedData.message || "";
 };
 
-elem.form.addEventListener('input', throttle(saveInputsValue, 500) );
+elem.form.addEventListener('input', throttle(saveInputsValue, 500));
+
 function saveInputsValue(evt) {
    const formData = savedData;
    formData[evt.target.name] = evt.target.value;
    localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
-}
+};
 
 elem.form.addEventListener('submit', result);
 
